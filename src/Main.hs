@@ -33,5 +33,4 @@ exitableRepl state = do
             exitableRepl state
 
 main:: IO ()
-main = do
-  exitableRepl File
+main = exitableRepl File
